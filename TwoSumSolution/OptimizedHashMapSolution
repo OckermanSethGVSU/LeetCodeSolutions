@@ -1,0 +1,25 @@
+import java.util.HashMap;
+class Solution {
+    public int[] twoSum(int[] nums, int target) {
+        // hashmap<value,key>; more efficent in checking if contains a value
+        HashMap<Integer,Integer> hmap = new HashMap<Integer,Integer>();
+        
+        // add all values to the hashmap
+        for(int i = 0; i < nums.length; ++i ){
+            hmap.put(nums[i],i);
+        }
+        
+        // check if can be found
+        for(int i = 0; i < nums.length; ++i){
+            // what is the other number that would make it work
+            int innerTarget = target - nums[i];
+            
+            // is that number in the hashmap and is it not just the number at the same index twice
+            if(hmap.containsKey(innerTarget) && hmap.get(innerTarget) != i ){
+                return new int[]{i, hmap.get(innerTarget)};
+            }
+        }
+        // can't find it; say so
+        throw new IllegalArgumentException("No solution found");
+    }
+}
