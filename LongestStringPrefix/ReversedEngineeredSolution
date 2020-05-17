@@ -1,0 +1,24 @@
+public class Solution{ 
+public String longestCommonPrefix(String[] strs) {
+    if (strs.length == 0){ 
+        return "";
+    }
+    // set equal to first word
+    String prefix = strs[0];
+    
+    // check the whole list
+    for (int i = 1; i < strs.length; i++)
+        // go until the index of the prefix is at 0 (ie. meaning it matches the            // beginning of the first string) 
+        while (strs[i].indexOf(prefix) != 0) {
+            
+            // take a letter of the end each time it doesn't match
+            prefix = prefix.substring(0, prefix.length() - 1);
+            
+            // if you ran out, no matches, return empty
+            if (prefix.isEmpty()){ 
+                return "";
+            }
+        }        
+    return prefix;
+}
+}
