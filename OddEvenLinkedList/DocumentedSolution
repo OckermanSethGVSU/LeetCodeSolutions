@@ -1,0 +1,32 @@
+public class Solution {
+    public ListNode oddEvenList(ListNode head) {
+       // make sure its not empty
+        if (head == null){ 
+            return null;}
+        
+        // set the first one equal to the first odd
+        ListNode odd = head;
+        
+        // set the second one equal to the first even
+        ListNode even = head.next;
+        
+        // give yourself a head tracker to come back to at the end
+        ListNode evenHead = even;
+        
+        // run till the end of the list
+        while (even != null && even.next != null) {
+            // skip over one by using even.next
+            odd.next = even.next;
+            // advance odd
+            odd = odd.next;
+            
+            // skip over one by using odd.next
+            even.next = odd.next;
+            // advance even
+            even = even.next;
+        }
+        // put it in order by setting the last odd's next as the first even, then return the head
+        odd.next = evenHead;
+        return head;
+    }
+}
