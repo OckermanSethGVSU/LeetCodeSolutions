@@ -2,7 +2,7 @@ class Solution {
     public int removeDuplicates(int[] nums) {
         /*
         * General idea: using two pointers
-        * move until j doesn't match i, then replace i with j
+        * move until j doesn't match i, then replace i + 1 with j
         * i will also serve as a size tracker though it will be one short b/c zero index
         */
         
