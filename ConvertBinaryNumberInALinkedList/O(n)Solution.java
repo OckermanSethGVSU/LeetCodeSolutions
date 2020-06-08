@@ -11,7 +11,7 @@
 class Solution {
     public int getDecimalValue(ListNode head) {
         /*
-        * After testing, the O(n) solution using strings is some how slower than my O(n^2) solution that uses ints
+        * After testing, the O(n) solution using strings is somehow slower than my O(n^2) solution that uses ints
         * I will have to look into this more
         */
         
