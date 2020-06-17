@@ -1,6 +1,7 @@
 class Solution {
     /*
-    * Slighty faster approach, I am going to keep them sorted while I insert them into a new array to get rid of log(n)       * work; should be O(n) in total
+    * Slighty faster approach, I am going to keep them sorted while I insert them into a new array to get rid of log(n)       
+    * work; should be O(n) in total
     */
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         // get the size of the first and second array and use it to determine the size of the array for copying
