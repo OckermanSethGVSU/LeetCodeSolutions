@@ -1,4 +1,4 @@
-class Solution {
+class BruteForceSolution {
     /*
     * This is a brute force approach. I am just going to try every solution and find the max
     * This will take O(n^2) work. I am sure there is a faster way but this is a start 
