@@ -8,7 +8,7 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-class Solution {
+class OptimizedSolution {
     public ListNode mergeTwoLists(ListNode x1, ListNode x2) {
         // dummy head
         ListNode head = new ListNode(0);
