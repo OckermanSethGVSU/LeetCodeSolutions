@@ -1,4 +1,4 @@
-class O(n)Solution {
+class Solution {
     public int arrangeCoins(int n) {
         // how many rows can it go
         int rows = 0;
