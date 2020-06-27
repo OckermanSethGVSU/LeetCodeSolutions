@@ -1,4 +1,4 @@
-public class Solution {
+public class WindowSolution {
     /*
     * based on reading existing solutions, I need to create a window approach, where I eliminate loops by 
     * only using one set and having a artifical window restriction act as what my loops would do
