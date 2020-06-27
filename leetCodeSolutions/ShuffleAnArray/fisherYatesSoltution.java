@@ -1,5 +1,5 @@
 // fisher yates solution
-class Solution {
+class fisherYatesSolution {
     
     // an unshuffled array
     private int[] original;
