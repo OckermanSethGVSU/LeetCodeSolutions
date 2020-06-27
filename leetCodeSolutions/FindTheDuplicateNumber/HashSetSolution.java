@@ -1,4 +1,4 @@
-class Solution {
+class HashSetSolutionSolution {
     // O(n)
     public int findDuplicate(int[] nums) {
         // set for speed
