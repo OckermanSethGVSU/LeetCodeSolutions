@@ -9,7 +9,7 @@
  *     }
  * }
  */
-public class Solution {
+public class HashSetSolution {
     public ListNode detectCycle(ListNode head) {
         // use a set so that no duplicates are possible
         Set<ListNode> knownNodes = new HashSet<>();
