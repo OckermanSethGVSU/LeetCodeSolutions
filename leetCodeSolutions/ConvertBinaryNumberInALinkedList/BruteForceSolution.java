@@ -8,7 +8,7 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-class Solution {
+class BruteForceSolution {
     public int getDecimalValue(ListNode head) {
         //TODO This could likely use bitwise stuff to get to an O(1) solution; Current O(n^2)
         //TODO I also believe I can get it down to O(n) scanning it is as a string and then using parseInt with a base 2
