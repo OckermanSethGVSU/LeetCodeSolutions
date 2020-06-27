@@ -1,5 +1,5 @@
 
-class Solution {
+class OptomizedSolution {
     public boolean isPalindrome(int x) {
         
         int reversedNum = 0;
