@@ -1,5 +1,5 @@
 import java.util.HashMap;
-class Solution {
+class OptimizedHashMapSolution {
     public int[] twoSum(int[] nums, int target) {
         // hashmap<value,key>; more efficent in checking if contains a value
         HashMap<Integer,Integer> hmap = new HashMap<Integer,Integer>();
