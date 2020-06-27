@@ -9,7 +9,7 @@ import java.math.BigInteger;
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-class Solution {
+class BruteForceOnBruteForceSolution {
     // just coming up with a solution that works would make me proud
     // as it turns out, first year student's still have a lot to learn; this solutions efficency 
     // is going to be awful, but a solution is better than no solution 
