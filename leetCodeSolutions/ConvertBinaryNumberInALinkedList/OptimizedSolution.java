@@ -8,7 +8,7 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-class Solution {
+class OptimizedSolution {
     public int getDecimalValue(ListNode head) {
         /*
         * After testing, the O(n) solution using strings is somehow slower than my O(n^2) solution that uses ints
