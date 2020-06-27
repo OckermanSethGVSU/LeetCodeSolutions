@@ -1,4 +1,4 @@
-class Solution {
+class BruteForceSolution {
     public int[] twoSum(int[] nums, int target) {
         // the array to return 
         int[] solution = new int[2];
