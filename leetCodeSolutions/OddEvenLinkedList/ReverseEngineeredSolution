@@ -1,4 +1,4 @@
-public class Solution {
+public class ReverseEngineeredSolution {
     public ListNode oddEvenList(ListNode head) {
        // make sure its not empty
         if (head == null){ 
