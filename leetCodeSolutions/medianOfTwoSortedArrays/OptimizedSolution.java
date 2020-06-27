@@ -1,4 +1,4 @@
-class Solution {
+class OptimizedSolution {
     /*
     * Slighty faster approach, I am going to keep them sorted while I insert them into a new array to get rid of log(n)       
     * work; should be O(n) in total
