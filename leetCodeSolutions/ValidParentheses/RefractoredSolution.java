@@ -1,4 +1,4 @@
-class Solution {
+class RefractoredSolution {
     public boolean isValid(String s) {
         // b/c I only care about what is the potential match (queue) system, use a stack
         Stack x = new Stack();
