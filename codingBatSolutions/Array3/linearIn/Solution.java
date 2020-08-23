@@ -1,5 +1,4 @@
-class Solution{
-
+class Solution {
   public boolean linearIn(int[] outer, int[] inner) {
     int in = 0;
     int out = 0;
